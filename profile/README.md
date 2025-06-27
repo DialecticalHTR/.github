@@ -1,13 +1,13 @@
-**DialecticalHTR** is _going to be_ an HTR solution for Russian handwriting with diacritic characters (e.g. acutes, breves).
+**DialecticalHTR** is an HTR solution for Russian handwriting with diacritic characters (e.g. acutes, breves).
 
-Made as a bachelor thesis by:
+Made as a bachelor thesis at [NaRFU](https://narfu.ru) by:
 
 <ul>
-    <li>Matvienko Daniil, responsibilities: Machine Learning</li>
-    <li>Starikov Alexander, responsibilities: Dataset Building, Backend</li>
+    <li><a href="https://github.com/SaylesMand">Matvienko Daniil</a>: Machine Learning</li>
+    <li><a href="https://github.com/ACherryJam">Starikov Alexander</a>: Dataset Building and implementation of client-server mobile app</li>
 </ul>
 
-# Repositories
+# Important Repositories
 
 <table>
     <thead>
@@ -16,12 +16,20 @@ Made as a bachelor thesis by:
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://github.com/DialecticalHTR/DatasetHelpers">DatasetHelpers</a></td>
-            <td>Helpful scripts for constructing the dataset</td>
+            <td><a href="https://github.com/DialecticalHTR/RuDialect-HTR">Dialect-HTR</a></td>
+            <td>Notebooks used for training TrOCR, YOLO and CRAFT models</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/DialecticalHTR/Attention-and-End2End-HTR">Attention-and-End2End-HTR</a></td>
-            <td>Models and training scripts</td>
+            <td>RecognitionClient (not uploaded yet)</td>
+            <td>Android mobile application for recognition of dialectological handwritten materials</td>
+        </tr>
+        <tr>
+            <td>RecognitionBackend (not uploaded yet)</td>
+            <td>Server that uses the trained models for HTR</td>
         </tr>
     </tbody>
 </table>
+
+# Organization Overview
+
+![Organization Overview](./images/OrganizationOverview.svg)
