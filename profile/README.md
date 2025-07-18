@@ -7,6 +7,8 @@ Made as a bachelor thesis at [NaRFU](https://narfu.ru) by:
     <li><a href="https://github.com/ACherryJam">Starikov Alexander</a>: Dataset Building and implementation of client-server mobile app</li>
 </ul>
 
+The text of the bachelor thesis is available here: [Google Drive](https://drive.google.com/file/d/19tcBxANDFo55pjVcubdXDi4XHQVaXM1L/view?usp=sharing)
+
 # Important Repositories
 
 <table>
